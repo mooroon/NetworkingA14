@@ -33,3 +33,23 @@ if you ever get lost use pwd to see where you are.
 $pwd
 /home/seconddirectory/lost
 ```
+
+### ls
+
+to see the files and directories stored in the directory you're currently in use ls.
+
+```cmd
+$ls
+file1.txt file2.txt file3.txt
+```
+
+to see hidden files use -a
+
+```cmd
+ls -a
+.file4.txt .file5.txt file1.txt file2.txt file3.txt
+```
+to see all files including hidden files formatted with permissions displayed use -la
+```cmd
+ls -la
+```
